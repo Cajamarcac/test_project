@@ -6,7 +6,7 @@ class Calculator:
 def main():
     calculator = Calculator()
     result = calculator.add_numbers(2, 3)
-    print(result)
+    print(f"El resultado es: {result}")
 
 if __name__ == '__main__':
     main()
